@@ -51,7 +51,6 @@ Usaremos dois LEDs uma na cor vemelha e outra na cor verde, sendo o vermelho aci
 
 # ESP 32
 
-Esp32
 A ESP32 é um microcontrolador desenvolvido pela Espressif Systems, reconhecido por sua alta performance e versatilidade. Baseada em um chip dual-core Xtensa LX6, a ESP32 é amplamente utilizada em projetos de Internet das Coisas (IoT) devido às suas capacidades integradas de Wi-Fi e Bluetooth, combinando conectividade robusta com um consumo de energia eficiente.
 
 Principais Características
