@@ -83,7 +83,7 @@ O MQTT(Message Queuing Telemetry Transport) é um protocolo de comunicação má
 
 Utilizamos a biblioteca PubSubClient para comunicação MQTT. Sendo assim, os dados então são coletados pelos dispotivos IOT, em seguida o Publish reune os dados em mensagens com o endereço de destino, que no caso é o tópico, e os entrega ao mensageiro que é o MQTT. O MQTT recebe as mensagens e entrega ao Broker do Ubidots. O Broker recebe as mensagens do mensageiro MQTT e as direciona para o destino, que são os Subscriber que estão inscritos no tópico e assim atualiza os dados no dashboard criado.
 
-![MQTT](img/Publisher.png)
+![MQTT](img/MQTT.png)
 
 # Protótipo
 
