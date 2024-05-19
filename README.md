@@ -19,35 +19,35 @@ O projeto consiste em um sistema de monitoramento de qualidade do ar utilizando 
 
 A plataforma de prototipagem eletrônica escolhida foi a Esp32, devido à sua robustez, facilidade de uso, grande comunidade de suporte e baixo custo. Além disso, a Esp32 oferece conectividade Wi-Fi e Bluetooth integradas, tornando-a ideal para projetos de IoT. Sua função será coletar dados e enviar essas informações através da internet utilizando o protocolo MQTT, e ainda aproveitando sua capacidade de conexão sem fio nativa.
 
-<img src = "https://curtocircuito.com.br/pub/media/catalog/product/cache/ebf77fb58d795a2dbe3218c301c821c6/p/l/placa_doit_Esp32_-_Esp32-wroom-32d_-_wifi_bluetooth.jpg" width="400">
+![Esp32](img/esp32.png) 
 		
 O sensor escolhido foi o MQ-2 que é capaz de detectar gases inflamáveis, como gás metano, hidrogênio, propano, butano e gases de fumaça. É comumente usado em sistemas de detecção de vazamentos de gás em residências, bem como em alarmes de incêndio para detectar a presença de fumaça e outros gases inflamáveis no ar. Esse sensor MQ desempenha papéis importantes em uma variedade de aplicações, fornecendo informações essenciais sobre a presença de gases nocivos ou inflamáveis no ambiente.
 
-<img src= "https://curtocircuito.com.br/pub/media/catalog/product/cache/ebf77fb58d795a2dbe3218c301c821c6/s/e/sensor_mq-2-1.jpg" width="400">
+<img src= "https://curtocircuito.com.br/pub/media/catalog/product/cache/ebf77fb58d795a2dbe3218c301c821c6/s/e/sensor_mq-2-1.jpg" width="200">
  
 Iremos utilizar um Display LCD 16x2 com Backlight Azul e I2C para que possamos visualizar quando a qualidade do ar estiver boa e quando estiver ruim, será apresentado na tela essa informação. 
 
-<img src= "https://curtocircuito.com.br/pub/media/catalog/product/cache/ebf77fb58d795a2dbe3218c301c821c6/d/i/display_lcd_16x02_-_backlight_azul_1.jpg" width="400">
+<img src= "https://curtocircuito.com.br/pub/media/catalog/product/cache/ebf77fb58d795a2dbe3218c301c821c6/d/i/display_lcd_16x02_-_backlight_azul_1.jpg" width="200">
 
 Além disso, usaremos uma Protoboard Breadboard 830 Pontos onde será montado o circuito do projeto, que nos permite fazer conexões entre os componentes eletrônicos.
 
-<img src= "https://d229kd5ey79jzj.cloudfront.net/1054/images/1054_1_H.png?20240328103423" width="400">
+<img src= "https://d229kd5ey79jzj.cloudfront.net/1054/images/1054_1_H.png?20240328103423" width="200">
  
 Também iremos utilizar Kits Jumper Macho e Fêmea para fazer as conexões entre os componentes na protoboard. Eles são essenciais para conectar os dispositivos de forma rápida e fácil.
 
-<img src= "https://d229kd5ey79jzj.cloudfront.net/1293/images/1293_1_H.png?20240207083958" width="400">
+<img src= "https://d229kd5ey79jzj.cloudfront.net/1293/images/1293_1_H.png?20240207083958" width="200">
 
 Iremos resistores 10kΩ irão ser utilizados em diversos pontos do circuito para limitar a corrente e proteger os componentes. Os resistores de 10kΩ são comumente usados em aplicações de divisão de tensão e pull-up/pull-down. 
 
-<img src= "https://images.tcdn.com.br/img/img_prod/650361/20x_resistor_10k_1_4_w_5_de_tolerancia_3819_2_a6321719e46e640aca3942b65e175fa1.jpg" width="400">
+<img src= "https://images.tcdn.com.br/img/img_prod/650361/20x_resistor_10k_1_4_w_5_de_tolerancia_3819_2_a6321719e46e640aca3942b65e175fa1.jpg" width="200">
  
 Como atuador iremos utilizar um Buzzer Passivo , que será acionado quando a qualidade do ar for considerada ruim. 
 
-<img src= "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSP65Lrdgr_x_giazxwQ3B5E_pvBOBa5Bt8chxwDIDzsYhqbKLXhAcCBKoFPmAfcebvGKEhqt1rVRJ-gWCSTkKB8hDJL3kABiU-laCOUOqTFBxrK1F-bAltKkYloT6Bu8I2HqMm8g&usqp=CAc" width="400">
+<img src= "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSP65Lrdgr_x_giazxwQ3B5E_pvBOBa5Bt8chxwDIDzsYhqbKLXhAcCBKoFPmAfcebvGKEhqt1rVRJ-gWCSTkKB8hDJL3kABiU-laCOUOqTFBxrK1F-bAltKkYloT6Bu8I2HqMm8g&usqp=CAc" width="200">
 
 Usaremos dois LEDs uma na cor vemelha e outra na cor verde, sendo o vermelho acionado quando detectado gases no ambiente e o verde inidicando que a qualidade do ar está boa . 
 
-<img src= "https://http2.mlstatic.com/D_NQ_NP_719778-MLU73418494757_122023-O.webp" width="400">
+<img src= "https://http2.mlstatic.com/D_NQ_NP_719778-MLU73418494757_122023-O.webp" width="200">
 
 # ESP 32
 
