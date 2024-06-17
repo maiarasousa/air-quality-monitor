@@ -2,7 +2,7 @@
 
 # Descrição:
 
-O projeto consiste em um sistema de monitoramento de qualidade do ar utilizando um sensor de gás MQ-2, LEDs indicativos, um Buzzer para alarmes sonoros, um display LCD para exibir informações e comunicação via protocolo MQTT para integração com a internet. Utilizamos uma ESP32 para controle doss componentes e gerenciamento da comunicação.
+O projeto consiste em um sistema de monitoramento de qualidade do ar utilizando um sensor de gás MQ-2, LEDs indicativos, um Buzzer para alarmes sonoros, um display LCD para exibir informações e comunicação via protocolo MQTT para integração com a internet. Utilizamos uma ESP32 para controle dos componentes e gerenciamento da comunicação.
 
 # Materiais:
 
